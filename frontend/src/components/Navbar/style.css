@@ -1,0 +1,33 @@
+.navbar {
+  height: 50px;
+  background-image: radial-gradient(circle at -2.23% 40.79%, #ae70cf 0, 
+  #7c57a6 25%, #4d3b77 50%, #24204a 75%, #060223 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-style: 20px;
+  font-weight: bold;
+}
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.list .listItem {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  margin: 50px;
+}
